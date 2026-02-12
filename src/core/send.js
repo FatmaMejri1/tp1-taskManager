@@ -1,4 +1,3 @@
-src/core/send.js
 export function sendJson(res, statusCode, data) {
 const body = JSON.stringify(data);
 res.writeHead(statusCode, {

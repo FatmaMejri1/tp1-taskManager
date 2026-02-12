@@ -1,4 +1,3 @@
-src/core/body.js
 export async function readJsonBody(req, { limitBytes = 1_000_000 } =
 {}) {
 return await new Promise((resolve, reject) => {

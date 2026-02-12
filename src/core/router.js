@@ -1,4 +1,3 @@
-src/core/router.js
 import { parse } from "node:url";
 function compilePath(pattern) {
 const keys = [];

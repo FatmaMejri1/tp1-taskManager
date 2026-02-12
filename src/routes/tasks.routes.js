@@ -1,4 +1,3 @@
-src/routes/tasks.routes.js
 import * as ctrl from "../controllers/tasks.controller.js";
 export function registerTaskRoutes(router) {
 router.get("/tasks", ctrl.list);

@@ -1,4 +1,3 @@
-src/controllers/tasks.controller.js
 import { readAll, writeAll } from "../repositories/tasks.repo.js";
 import { newId } from "../utils/id.js";
 import { readJsonBody } from "../core/body.js";
